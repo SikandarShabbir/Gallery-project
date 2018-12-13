@@ -1,0 +1,249 @@
+body {
+ /*background:#0f0f0f !important;*/
+}
+
+/*
+
+*/
+
+h3 {
+  color: rgba(31,181,172,.9);
+}
+.text{
+	color: rgba(31,181,172,.9);
+	text-align: center;
+}
+
+
+.folded-corner:hover .text{
+	visibility: visible;
+	color: #000000;
+}
+.Services-tab{
+	margin-top:20px;
+	
+
+}
+
+/*
+  nav link items
+*/
+.folded-corner{
+  padding: 25px 25px;
+  position: relative;
+  font-size: 90%;
+  text-decoration: none;
+  color: #999; 
+  background: transparent;
+  transition: all ease .5s;
+  border: 1px solid rgba(31,181,172,.9);
+}
+.folded-corner:hover{
+	background-color: rgba(31,181,172,.9);
+}
+
+/*
+  paper fold corner
+*/
+
+.folded-corner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0px 0px 0;
+  border-color: #ddd #000;
+  transition: all ease .3s;
+}
+
+/*
+  on li hover make paper fold larger
+*/
+.folded-corner:hover:before {
+	background-color: #D00003;
+  border-width: 0 50px 50px 0;
+  border-color: #eee #000;
+  
+}
+
+.service_tab_1{
+	background-color: #000;
+}
+.service_tab_1:hover .fa-icon-image{
+    color: #000;
+    transform: rotate(360deg) scale(1.5);
+}
+
+
+.fa-icon-image{
+	color: rgba(31,181,172,.9);
+	display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    text-rendering: auto;
+    transition: all .65s linear 0s;
+    text-align: center;
+    transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+}
+
+/*Testimonial*/
+
+.img_width {
+  width: 200px;
+  height: 150px !important;
+}
+/*Testimonial styling*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
+
+section{
+    background:#fbfbfb;
+}
+h2 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+#testimonial{
+   padding:80px 0px;
+}
+
+#testimonial .fa.fa-quote-right{
+  color:#5db4c0;
+  font-size:30px;
+}
+
+#testimonial  p{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom:20px;
+    margin-top:20px;
+    /*color: #fff;*/
+}
+
+#testimonial img{
+    width: 150px; 
+    height: 150px; 
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid #5db4c0; 
+}
+
+#testimonial .carousel-indicators  li {
+    background-color: #5db4c0;
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+}
+
+#testimonial .carousel-indicators li.active {
+    background-color: #888383;
+}
+
+#testimonial .carousel-indicators {
+    bottom: -50px;
+}
+  /*End of testimonils*/
+
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Roboto Mono");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Dosis Light'), local('Dosis-Light'), url(http://fonts.gstatic.com/l/font?kit=RoNoOKoxvxVq4Mi9I4xIReCW9eLPAnScftSvRB4WBxg&skey=a88ea9d907460694) format('woff2');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Dosis Medium'), local('Dosis-Medium'), url(http://fonts.gstatic.com/l/font?kit=Z1ETVwepOmEGkbaFPefd_-CW9eLPAnScftSvRB4WBxg&skey=21884fc543bb1165) format('woff2');
+}
+
+/*End of Contact*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.footer {
+    background: #222222;
+    padding: 80px 0px;
+    color: #FFF;
+}
+
+.footer ul{
+    padding:0px;    
+}
+
+.footer ul li {
+    margin: 10px;
+}
+
+.footer ul li a {
+    color: #FFF;
+    text-decoration:none;
+}
+
+.footer span {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing:3px;
+}
+
+.icons {
+    margin: 0 auto;
+    display: table;
+    padding-top: 20px;
+}
+
+.icons .fa {
+    font-size: 30px;
+    padding: 10px;
+    color: #adadad;
+}
+/*End of footer styling*/
+
+/*Our team*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
+
+h2 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ion-minus{
+    padding:0px 10px;
+}
+
+.team{
+  background-color:#f6f6f6;
+  padding:60px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.team h4 {
+    margin-top: 20px;
+    color: #5db4c0;
+}
+
+.team .fa{
+    color: #5db4c0;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 3px;
+}
